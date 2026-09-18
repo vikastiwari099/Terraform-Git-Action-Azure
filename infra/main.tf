@@ -1,6 +1,6 @@
 # infra/main.tf
 # Minimal example resource - replace with your actual infrastructure.
-# test
+# test1
 resource "azurerm_resource_group" "this" {
   name     = "rg-${var.environment}-example"
   location = var.location
