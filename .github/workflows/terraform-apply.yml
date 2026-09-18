@@ -47,6 +47,6 @@ jobs:
         run: terraform init -no-color
         working-directory: ${{ env.TF_WORKING_DIR }}
 
-      - name: Terraform Apply
+      - name: Terraform Destroy
         run: terraform apply -auto-approve -input=false
         working-directory: ${{ env.TF_WORKING_DIR }}
