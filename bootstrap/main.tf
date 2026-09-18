@@ -20,7 +20,7 @@ terraform {
 provider "azurerm" {
   features {}
 }
-
+#test
 resource "azurerm_resource_group" "tfstate" {
   name     = "rg-tfstate"
   location = "centralindia"
